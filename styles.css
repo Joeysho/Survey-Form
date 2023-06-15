@@ -1,0 +1,75 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(55, 75, 255, 0.9);
+    background-image: url(https://media.istockphoto.com/id/1150717887/photo/happy-female-college-student-reading-a-book-on-a-class.jpg?s=612x612&w=0&k=20&c=IiS-_TP1wr_vRcCV9PeptC26RQb15OZ1K1TzKtoX9c8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+    font-family: Tahoma;
+    text-align: center;
+    padding-top: 40px;
+    height: 10px;
+  }
+  
+  h1{
+    position: relative;
+    top: 11px;
+  }
+  p{
+    font-family: sans-serif;
+  }
+  .questions {
+    position: relative;
+    top: 25px;
+    font-family: Tahoma;
+    font-size: 17px;
+  }
+  
+  form{
+    width: 80%;
+    background-color: rgba(27,27,57, 94%);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 45px;
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  input, select, textarea {
+    margin: 15 0 15 0;
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  label {
+    margin: 3px auto;
+    width: 100%;
+    text-align: left;
+    display: block;
+  }
+  
+  i {
+    font-size: 13px;
+    color: rgba(244, 230, 230, 0.723)
+  }
+  
+  .inline {
+    width: unset;
+    margin: 10 8 5 0;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  input[type="submit"] {
+    padding: 12 0;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+  }
